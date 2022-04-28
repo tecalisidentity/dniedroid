@@ -2,3 +2,6 @@ jdk:
   - openjdk11
 before_install:
   - ./scripts/prepareJitpackEnvironment.sh
+install:
+  - FILE="-Dfile=dniedroid-release.aar"
+  - mvn install:install-file $FILE -DgroupId=es.dniedroidfnmt -DartifactId=dniedroid -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
