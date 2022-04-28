@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_cert_size">19sp</dimen>
+    <dimen name="text_cert_size_info">17sp</dimen>
+    <dimen name="text_size">22sp</dimen>
+</resources>

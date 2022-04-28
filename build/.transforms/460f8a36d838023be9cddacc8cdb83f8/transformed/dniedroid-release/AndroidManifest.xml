@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.dniedroidfnmt"
+    android:versionCode="94"
+    android:versionName="2.3.94" >
+
+    <uses-sdk
+        android:minSdkVersion="22"
+        android:targetSdkVersion="29" />
+
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.NFC" />
+
+    <application>
+        <meta-data
+            android:name="android.nfc.disable_beam_default"
+            android:value="true" />
+    </application>
+
+</manifest>

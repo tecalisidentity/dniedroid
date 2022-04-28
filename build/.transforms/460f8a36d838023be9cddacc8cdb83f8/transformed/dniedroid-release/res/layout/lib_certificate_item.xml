@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0FFFFFF"
+    android:layout_marginBottom="5dp">
+    <ImageView
+        android:id="@+id/certificateIcon"
+        android:layout_gravity="start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/certificate"
+        android:padding="5dp"
+        android:contentDescription="" />
+    <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:layout_gravity="end"
+          android:layout_toEndOf="@+id/certificateIcon"
+          android:layout_marginStart="5dp">
+        <TextView
+            android:id="@+id/certItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_cert_size"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/black"
+            android:text="certificate info"/>
+        <TextView
+            android:id="@+id/certDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_cert_size_info"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/black"
+            android:text="certificate sub info"/>
+    </LinearLayout>
+</RelativeLayout>
