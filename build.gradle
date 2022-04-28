@@ -11,7 +11,7 @@ afterEvaluate {
             release(MavenPublication) {
                 groupId = 'com.github.tecalisidentity'
                 artifactId = 'dniedroid'
-                version = '1.1'
+                version = '1.2'
                 artifact("dniedroid-release.aar")
             }
         }
